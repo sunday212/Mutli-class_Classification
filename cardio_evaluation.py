@@ -19,8 +19,8 @@ from imblearn.pipeline import Pipeline
 
 #---------------------- Import data ------------------------
 
-path_data = "/Users/lisa/Desktop/blue_sky/My Learnings/Machine Learning/Mastering Machine Learning/Projects/01_Classification - Multiclass/cardio/"
-path_charts = "/Users/lisa/Desktop/blue_sky/My Learnings/Machine Learning/Mastering Machine Learning/Projects/01_Classification - Multiclass/cardio/charts/"
+path_data = "/cardio/"
+path_charts = "/cardio/charts/"
 
 dataset = pd.read_csv(path_data + "cardiotoc.csv")
 
